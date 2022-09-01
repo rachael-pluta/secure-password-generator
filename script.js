@@ -1,4 +1,4 @@
-// Assignment code here
+// Characters for password
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const number = "1234567890";
@@ -19,12 +19,12 @@ function writePassword() {
 
 function generatePassword() {
   var finalPassword = "";
-  var passwordSize = prompt("How many characters do you want for your password?");
+  var passwordSize = prompt("How long do you want your password?");
   if (passwordSize >= 8 && passwordSize <= 128) {
-    var checkLowerCase = confirm("Do you want lowercase characters?");
-    var checkUpperCase = confirm("Do you want uppercase characters?");
-    var checkNumber = confirm("Do you want numbers?");
-    var checkSymbol = confirm("Do you want symbols?");
+    var checkLowerCase = confirm("Do you want lowercase characters in your password?");
+    var checkUpperCase = confirm("Do you want uppercase characters in your password?");
+    var checkNumber = confirm("Do you want numbers in your password?");
+    var checkSymbol = confirm("Do you want symbols in your password?");
     for (var i = 0; i < passwordSize; i++) {
       if (checkLowerCase === true && finalPassword.length < passwordSize) {
         var position = Math.floor(Math.random() * 26);
@@ -45,7 +45,7 @@ function generatePassword() {
     }
   }
   else {
-    alert("Invalid entry.")
+    alert("Sorry! Your password must be between 8 and 128 characters long!")
   }
   return finalPassword
 }
