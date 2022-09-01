@@ -13,7 +13,21 @@ N/A
 ## Usage
 You can click on the generate button, which displays prompts in relation to the length of your desired password and the types of characters you would like to include.
 
+![White prompt box asking the user how long they want their password to be](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/password-length.png) 
+
+![White prompt box asking the user if they want lowercase characters in their password](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/lower-case-prompt.png)
+
+![White prompt box asking the user if they want uppercase characters in their password](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/uppercase-prompt.png)
+
+![White prompt box asking the user if they want numbers in their password](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/numbers-prompt.png)
+
+![White prompt box asking the user if they want symbols in their password](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/symbols-prompt.png)
+
+![Example of generated password with 10 characters, uppercase and lowercase characters, and numbers and symbols](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/generated-password.png)
+
 If the user wants a password that does not meet the desired length (ie. between 8 and 128 characters), an error message will display:
+
+![White prompt telling the user their password must be between 8 and 128 characters long](https://raw.githubusercontent.com/rachael-pluta/secure-password-generator/main/assets/images/error-message.png)
 
 ## Deployed Webpage
 
